@@ -75,6 +75,12 @@ close.addEventListener('click',function() {
     gallery.classList.remove('show')
 })
 
+document.onkeydown = function(e) {
+    if (e.which = 27) {
+        gallery.classList.remove('show')
+    }
+}
+
 
 
 
